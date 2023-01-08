@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>BT B5</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5">
+        <h3>Bài 1: Bài tập tuyển sinh</h3>
+        <form>
+            <input class="form-control w-25 d-inline-block" id="diemChuan-B1" placeholder="Điểm chuẩn">
+            <select name="" class="form-control w-25 d-inline-block" id="khuVuc-B1">
+                <option value="X">Chọn khu vực</option>
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+            <select name="" class="form-control w-25 d-inline-block" id="doiTuong-B1">
+                <option value="0">Chon đối tượng</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select> <br>
+            <div class="form-group mt-3">
+                <input class="form-control w-25 d-inline-block" id="diem1-B1" placeholder="Điểm môn thứ 1">
+                <input class="form-control w-25 d-inline-block" id="diem2-B1" placeholder="Điểm môn thứ 2">
+                <input class="form-control w-25 d-inline-block" id="diem3-B1" placeholder="Điểm môn thứ 3">
+            </div>
+
+        </form>
+        <button class="btn btn-success" id="btn-B1">Kết quả</button>
+        <p class="alert alert-success mt-3" id="result-B1"></p>
+        <hr>
+        <h3>Bài 2: Bài tập tính tiền điện</h3>
+        <div class="form-group">
+            <input class="form-control w-25 d-inline-block" id="hoTen-B2" placeholder="Nhập họ tên">
+            <input class="form-control w-25 d-inline-block" id="soKw-B2" placeholder="Nhập số kW" > <br>
+            <button class="btn btn-success mt-3" id="btn-B2">Tính tiền điện</button>
+            <p class="alert alert-success mt-3" id="result-B2"></p>
+        </div>
+        <hr>
+        <h3>Bài 3: Bài tập tính thuế thu nhập cá nhân</h3>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-4">
+              <input class="form-control" id="hoTen-B3" placeholder="Nhập họ tên">
+            </div>
+            <div class="col-4">
+              <input class="form-control" id="thuNhap-B3" placeholder="Tổng thu nhập năm (VND)" type="number">
+            </div>
+            <div class="col-4">
+              <input class="form-control" id="soNguoi-B3" placeholder="Số người phụ thuộc" type="number">
+            </div>
+          </div>
+          <button class="btn btn-success mt-3" id="btn-B3">Tính tiền thuế</button>
+          <p class="alert alert-success mt-3" id="result-B3"></p>
+        </div> <hr>
+        <h3>Bài 4: Bài tập tính tiền cáp:</h3>
+        <div class="form-group">
+          <div class="row">
+            <div class="col-4">
+              <select class="form-control" name="" id="loaiKH-B4">
+                <option value="X">Chọn loại khách hàng</option>
+                <option value="ND">Nhà dân</option>
+                <option value="DN">Doanh nghiệp</option>
+              </select>
+            </div>
+            <div class="col-4">
+              <input class="form-control" id="maKH-B4" placeholder="Nhập mã khách hàng" >
+            </div>
+            <div class="col-4">
+              <input class="form-control" id="soKenh-B4" placeholder="Số kênh cao cấp" type="number">
+            </div>
+            <div class="col-4 ">
+              <input class="form-control mt-3" id="soKetNoi-B4" placeholder="Số kết nối" type="hidden">
+            </div>
+          </div>
+          <button class="btn btn-success mt-3" id="btn-B4">Tính tiền cáp</button>
+          <p class="alert alert-success mt-3" id="result-B4"></p>
+        </div>
+        <!-- <hr>
+        <input type="" class="form-control w-25" id="demo">
+        <br>
+        <button class="btn btn-danger mb-5" id="btn-demo">Demo</button> -->
+
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
